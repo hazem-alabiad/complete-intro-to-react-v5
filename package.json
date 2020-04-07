@@ -1,0 +1,22 @@
+{
+  "name": "complete-intro-to-react-v5",
+  "version": "1.0.0",
+  "main": "src/App.js",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "prettier": "^2.0.2"
+  },
+  "description": "FrontEnd Masters course by Brian Holt",
+  "repository": "git@github.com:hazem94/complete-intro-to-react-v5.git",
+  "author": "Hazem. W",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "dev": "parcel src/index.html"
+  }
+}
