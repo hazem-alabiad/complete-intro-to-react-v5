@@ -26,5 +26,8 @@
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "dev": "parcel src/index.html"
-  }
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
 }

@@ -13,6 +13,9 @@ export default function useDropdown(label, initialState, options) {
         onChange={(e) => setState(e.target.value)}
         onBlur={(e) => setState(e.target.value)}
       >
+        <option value="All" key="All">
+          All
+        </option>
         {_.map(options, (option) => (
           <option value={option} key={option}>
             {option}
