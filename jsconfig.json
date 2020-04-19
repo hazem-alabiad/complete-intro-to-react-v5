@@ -1,6 +1,12 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "commonjs"
-  }
+    "module": "commonjs",
+    "pretty": true,
+    "jsx": "react"
+  },
+  "typeAcquisition": {
+    "enable": true
+  },
+  "compileOnSave": true
 }
